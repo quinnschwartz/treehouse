@@ -18,6 +18,12 @@ h1 {
   font-size: 20px;
 }
 
+h3 {
+  margin-top: 0;
+  font-size: 15px;
+  color: #DCDDDE;
+}
+
 span {
   float: right;
   margin: 17px;
@@ -25,14 +31,14 @@ span {
   color: white;
 }
 
+.arrow {
+  width: 15px;
+  margin: 10px;
+}
+
 .book {
   width: 25px;
   margin: 17px;
-}
-
-.icons {
-  width: 35px;
-  margin: 10px;
 }
 
 .button {
@@ -44,60 +50,84 @@ span {
 }
 
 .buttons {
-  height: 100px;
-  /*float: left;*/
+  float: left;
+  height: 80px;
+  margin-top: 30px;
+}
+
+.box {
+  box-shadow: 1px 2px 10px #DCDDDE;
+  margin-bottom: 30px;
+  background-color: white;
+  height: 300px;
+  border-radius: 5px;
 }
 
 .circle {
   width: 10px;
 }
 
+.content {
+  padding: 5%;
+}
+
+.header {
+  height: 50px;
+}
+
+.icons {
+  float: right;
+  width: 35px;
+  margin: 10px;
+}
+
+.number {
+  float: right;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #DCDDDE;
+}
+
+.star {
+  margin-left: 170px;
+}
+
+.library {
+  float: left;
+}
+
 .leftCol {
   float: left;
-  width: 42%;
-  margin: 3%;
+  width: 45%;
+}
+
+.navBar {
+  float: right;
+  margin-top: 30px;
 }
 
 .rightCol {
   float: right;
-  width: 42%;
-  margin: 3%;
-}
-
-.java {
-  box-shadow: 1px 2px 10px #DCDDDE;
-  margin: 2%;
-  background-color: white;
-}
-
-.python {
-  box-shadow: 1px 2px 10px #DCDDDE;
-  margin: 2%;
-  background-color: white;
-}
-
-.wordpress {
-  box-shadow: 1px 2px 10px #DCDDDE;
-  margin: 2%;
-  background-color: white;
-}
-
-.javaFX {
-  box-shadow: 1px 2px 10px #DCDDDE;
-  margin: 2%;
-  background-color: white;
+  width: 45%;
 }
 
 .javaHeader {
   background-color: #2c9676;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .pythonHeader {
   background-color: #f092b0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .wordpressHeader {
   background-color: #838CC7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #java {

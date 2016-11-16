@@ -1,108 +1,115 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Bootstrap-->
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <!--Stylesheet-->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Treehouse Libary</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Library</h1>
-      <hr>
-      <div class="leftCol">
-      <div class="java">
+<head>
+  <!--Bootstrap-->
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <!--Stylesheet-->
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Treehouse Libary</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="library">Library</h1>
+      <p class="number">197 |
+        <img src="img/group.png" alt="Group">
+        <img src="img/arrow.png" alt="Arrow" class="arrow"> |
+        <img src="img/right.png" alt="Right Arrow" class="arrow"> |
+        <img src="img/alarm.png" alt="Alarm" class="arrow">
+      </p>
+    </div>
+    <hr>
+    <div class="leftCol">
+      <div class="box">
         <div class="javaHeader">
           <img src="img/open-book.png" alt="Book" class="book">
           <img src="img/circle.png" alt="Circle" class="circle">
           <img src="img/circle.png" alt="Circle" class="circle">
           <span>118 min</span>
         </div>
+        <div class="content">
+          <h3>Course</h3>
+          <h1>Java Annotations</h1>
+          <p>Annotations have rapidly became Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-        <h3>Course</h3>
-        <h1>Java Annotations</h1>
-        <p>Annotations have rapidly became Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-        <div class="buttons">
-        <button id="java" class="button" type="button" name="button">Java</button>
-        <button class="button" type="button" name="button">Intermediate</button>
-        <span><img src="img/play-button.png" alt="Play" class="icons">
-        <img src="img/star.png" alt="Star" class="icons"></span>
-      </div>
-      </div>
-
-      <div class="python">
-        <div class="pythonHeader">
-          <img src="img/open-book.png" alt="Book" class="book">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <span>2 hours</span>
-        </div>
-        <h3>Course</h3>
-        <h1>Customizing Django Templates</h1>
-        <p>In Django Basics, you learned how to set up the skeleton of a video tutorial library. But for a real-world application...</p>
-
-        <div class="buttons">
-        <button id="python" class="button" type="button" name="button">Python</button>
-        <button class="button" type="button" name="button">Intermediate</button>
-        <span><img src="img/play-button.png" alt="Play" class="icons">
-        <img src="img/star.png" alt="Star" class="icons"></span>
-      </div>
-    </div>
-</div>
-
-<div class="rightCol">
-      <div class="wordpress">
-        <div class="wordpressHeader">
-          <img src="img/open-book.png" alt="Book" class="book">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <span>3 hours</span>
+          <div class="buttons">
+            <button id="java" class="button" type="button" name="button">Java</button>
+            <button class="button" type="button" name="button">Intermediate</button>
+            <img src="img/play-button.png" alt="Play" class="icons">
+              <img src="img/star.png" alt="Star" class="icons star">
+            </div>
+          </div>
         </div>
 
-        <h3>Course</h3>
-        <h1>WooCommerce Theme Development</h1>
-        <p>WooCommerce id the leading ECommerce plugin for WordPress and allows you to easily turn any WordPress site into a site..</p>
+        <div class="box">
+          <div class="pythonHeader">
+            <img src="img/open-book.png" alt="Book" class="book">
+            <img src="img/circle.png" alt="Circle" class="circle">
+            <img src="img/circle.png" alt="Circle" class="circle">
+            <span>2 hours</span>
+          </div>
+          <div class="content">
+            <h3>Course</h3>
+            <h1>Customizing Django Templates</h1>
+            <p>In Django Basics, you learned how to set up the skeleton of a video tutorial library. But for a real-world application...</p>
 
-        <div class="buttons">
-        <button id="wordpress" class="button" type="button" name="button">Wordpress</button>
-        <button class="button" type="button" name="button">Intermediate</button>
-        <span><img src="img/play-button.png" alt="Play" class="icons">
-        <img src="img/star.png" alt="Star" class="icons"></span>
-      </div>
-    </div>
-
-      <div class="javaFX">
-        <div class="javaHeader">
-          <img src="img/open-book.png" alt="Book" class="book">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <img src="img/circle.png" alt="Circle" class="circle">
-          <span>3 hours</span>
+            <div class="buttons">
+              <button id="python" class="button" type="button" name="button">Python</button>
+              <button class="button" type="button" name="button">Intermediate</button>
+              <img src="img/play-button.png" alt="Play" class="icons">
+                <img src="img/star.png" alt="Star" class="icons star">
+              </div>
+            </div>
+          </div>
         </div>
-        <h3>Course</h3>
-        <h1>Build a JavaFX Application</h1>
-        <p>JavaFX is the de facto way to make Graphical User Interfaces (or GUIs) in Java. It is robust and customizeable, and getting..</p>
 
-        <div class="buttons">
-        <button id="java" class="button" type="button" name="button">Java</button>
-        <button class="button" type="button" name="button">Intermediate</button>
-        <span><img src="img/play-button.png" alt="Play" class="icons">
-        <img src="img/star.png" alt="Star" class="icons"></span>
-      </div>
+        <div class="rightCol">
+          <div class="box">
+            <div class="wordpressHeader">
+              <img src="img/open-book.png" alt="Book" class="book">
+              <img src="img/circle.png" alt="Circle" class="circle">
+              <img src="img/circle.png" alt="Circle" class="circle">
+              <img src="img/circle.png" alt="Circle" class="circle">
+              <img src="img/circle.png" alt="Circle" class="circle">
+              <img src="img/circle.png" alt="Circle" class="circle">
+              <span>3 hours</span>
+            </div>
 
-      </div>
-    </div>
-  </div>
+            <div class="content">
+              <h3>Course</h3>
+              <h1>WooCommerce Theme Development</h1>
+              <p>WooCommerce id the leading ECommerce plugin for WordPress and allows you to easily turn any WordPress site into a site..</p>
 
-    <!--Scripts-->
-    <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
+              <div class="buttons">
+                <button id="wordpress" class="button" type="button" name="button">Wordpress</button>
+                <button class="button" type="button" name="button">Intermediate</button>
+                <img src="img/play-button.png" alt="Play" class="icons">
+                  <img src="img/star.png" alt="Star" class="icons star">
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="javaHeader">
+                <img src="img/open-book.png" alt="Book" class="book">
+                <img src="img/circle.png" alt="Circle" class="circle">
+                <img src="img/circle.png" alt="Circle" class="circle">
+                <img src="img/circle.png" alt="Circle" class="circle">
+                <img src="img/circle.png" alt="Circle" class="circle">
+                <span>3 hours</span>
+              </div>
+              <div class="content">
+                <h3>Course</h3>
+                <h1>Build a JavaFX Application</h1>
+                <p>JavaFX is the de facto way to make Graphical User Interfaces (or GUIs) in Java. It is robust and customizeable, and getting..</p>
+                <div class="buttons">
+                  <button id="java" class="button" type="button" name="button">Java</button>
+                  <button class="button" type="button" name="button">Intermediate</button>
+                  <img src="img/play-button.png" alt="Play" class="icons">
+                    <img src="img/star.png" alt="Star" class="icons star">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   </body>
 </html>
