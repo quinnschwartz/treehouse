@@ -2,25 +2,91 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: #edeff0;
 }
 
+hr {
+  border: 1px solid #DCDDDE;
+  box-shadow: 1px 1px 4px rgb(120, 121, 117);
+}
+
+h1 {
+  font-size: 20px;
+}
+
+span {
+  float: right;
+  margin: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.book {
+  width: 25px;
+  margin: 17px;
+}
+
+.icons {
+  width: 35px;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: white;
+  color: #9ca7a9;
+  border: 2px solid #edeff0;
+  padding: 7px;
+}
+
+.buttons {
+  height: 100px;
+  /*float: left;*/
+}
+
+.circle {
+  width: 10px;
+}
+
+.leftCol {
+  float: left;
+  width: 42%;
+  margin: 3%;
+}
+
+.rightCol {
+  float: right;
+  width: 42%;
+  margin: 3%;
+}
 
 .java {
-  float: left;
-  width:
+  box-shadow: 1px 2px 10px #DCDDDE;
+  margin: 2%;
+  background-color: white;
 }
 
+.python {
+  box-shadow: 1px 2px 10px #DCDDDE;
+  margin: 2%;
+  background-color: white;
+}
 
+.wordpress {
+  box-shadow: 1px 2px 10px #DCDDDE;
+  margin: 2%;
+  background-color: white;
+}
 
-
-
-
+.javaFX {
+  box-shadow: 1px 2px 10px #DCDDDE;
+  margin: 2%;
+  background-color: white;
+}
 
 .javaHeader {
   background-color: #2c9676;
@@ -32,4 +98,16 @@ body {
 
 .wordpressHeader {
   background-color: #838CC7;
+}
+
+#java {
+  color: #2c9676;
+}
+
+#python {
+  color: #f092b0;
+}
+
+#wordpress {
+  color: #838CC7;
 }
